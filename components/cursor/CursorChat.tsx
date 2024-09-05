@@ -17,7 +17,9 @@ function CursorChat({cursor,cursorState,setCursorState,updateMyPresence}:CursorC
     if(e.key === 'Enter'){
 
       setCursorState({
+        //@ts-ignore
         mode:CursorChat.Chat,
+        //@ts-ignore
         previousMessage:cursorState.message,
         message:'',
       })
