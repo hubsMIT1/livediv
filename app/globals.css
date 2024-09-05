@@ -2,8 +2,16 @@
 @tailwind components;
 @tailwind utilities;
 
-@import "@liveblocks/react-comments/styles.css";
+/* @import "@liveblocks/react-comments/styles.css"; */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
 
+/* Hide scrollbar for IE, Edge and Firefox */
+.no-scrollbar {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
 * {
   font-family:
     work sans,

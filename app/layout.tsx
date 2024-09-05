@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import { Work_Sans } from "next/font/google";
 import "./globals.css";
 import { Room } from "./Room";
-
+import "@liveblocks/react-ui/styles.css";
 const work_sans = Work_Sans({
   subsets: ["latin"],
   variable: '--font-work-sans',
