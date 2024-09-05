@@ -79,15 +79,7 @@ export const {
     useAddReaction,
     useRemoveReaction,
   },
-} = createRoomContext<Presence, Storage, UserMeta, RoomEvent, ThreadMetadata>(client, {
-  async resolveUsers({ userIds }) {
-
-    return [];
-  },
-  async resolveMentionSuggestions({ text, roomId }) {
-    return [];
-  }
-});
+} =  createRoomContext<Presence, Storage, UserMeta, RoomEvent, ThreadMetadata>(client);
 // declare global {
 //   interface Liveblocks {
 //     // Each user's Presence, for useMyPresence, useOthers, etc.

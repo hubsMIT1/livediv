@@ -18,7 +18,7 @@ import { useMaxZIndex } from "@/lib/useMaxZIndex";
 import PinnedComposer from "./PinnedComposer";
 import NewThreadCursor from "./NewThreadCursor";
 import { useCreateThread } from "@liveblocks/react";
-import { ComposerSubmitComment } from "@liveblocks/react-comments";
+import { ComposerSubmitComment } from "@liveblocks/react-ui";
 
 type ComposerCoords = null | { x: number; y: number };
 

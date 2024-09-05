@@ -4,10 +4,10 @@ import Image from "next/image";
 import { useMemo, useState } from "react";
 import { ThreadData } from "@liveblocks/client";
 import { useEditThreadMetadata } from "@liveblocks/react";
-// import { Thread } from "@liveblocks/react-comments";
 
 import { ThreadMetadata } from "@/liveblocks.config";
-import { Thread } from "@liveblocks/react-comments";
+import { Thread } from "@liveblocks/react-ui";
+
 
 type Props = {
   thread: ThreadData<ThreadMetadata>;
