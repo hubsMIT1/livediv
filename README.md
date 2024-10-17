@@ -1,6 +1,10 @@
-```
-pnpm add fabric uuid
+## Figma Dummy Clone
 
+- Fabric Js, liveblocks, tailwind, shadcn, pdfjs etc...
+  
+```
+pnpm add
+pnpm run dev
 
 ```
 
